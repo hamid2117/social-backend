@@ -7,7 +7,7 @@ const resolvers = require('./graphql/resolvers')
 
 const pubsub = new PubSub()
 
-const PORT = process.env.post || 5000
+const PORT = process.env.POST || 5000
 const server = new ApolloServer({
   typeDefs,
   resolvers,
